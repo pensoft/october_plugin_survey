@@ -1,0 +1,4 @@
+title: Interests
+modelClass: Pensoft\Survey\Models\Interest
+toolbar:
+    buttons: reorder_toolbar

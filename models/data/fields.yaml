@@ -1,0 +1,57 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    email:
+        label: Email
+        span: auto
+        type: text
+    affiliation:
+        label: Affiliation
+        span: auto
+        type: text
+    country:
+        label: Country
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    interest:
+        label: Interests
+        nameFrom: name
+        descriptionFrom: description
+        span: left
+        type: relation
+        comment: 'Interested in project? '
+    group:
+        label: Groups
+        nameFrom: name
+        descriptionFrom: description
+        span: left
+        type: relation
+        comment: 'Which of these groups do you belong to?'
+    category:
+        label: 'Category/categories'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+        comment: 'In which categories of project management/reintroduction is your organisation active?'
+    message:
+        label: 'Message'
+        span: auto
+        type: text
+        commen: 'Are there any good practices for project reintroduction you would like to share, and if yes, what are they?'
+    is_involved:
+        label: 'Are you/is your organisation already involved?'
+        span: auto
+        type: switch
+    project_events:
+        label: 'I consent to receive invitations and information about project events.'
+        span: auto
+        type: switch
+    external_events:
+        label: 'I consent to receive invitations and information about relevant events from external projects.'
+        span: auto
+        type: switch

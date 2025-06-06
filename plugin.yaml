@@ -1,0 +1,32 @@
+plugin:
+    name: 'pensoft.survey::lang.plugin.name'
+    description: 'pensoft.survey::lang.plugin.description'
+    author: Pensoft
+    icon: icon-external-link-square
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Survey
+        url: pensoft/survey/mails
+        icon: icon-mail-reply
+        sideMenu:
+            side-menu-item:
+                label: Mails
+                url: pensoft/survey/mails
+                icon: icon-envelope
+            side-menu-item2:
+                label: Recipients
+                url: pensoft/survey/recipients
+                icon: icon-user-plus
+            side-menu-item3:
+                label: Intersts
+                url: pensoft/survey/interests
+                icon: icon-star-o
+            side-menu-item4:
+                label: Categories
+                url: pensoft/survey/categories
+                icon: icon-list-alt
+            side-menu-item5:
+                label: Groups
+                url: pensoft/survey/groups
+                icon: icon-group

@@ -1,0 +1,10 @@
+name: Groups
+form: $/pensoft/survey/models/group/fields.yaml
+modelClass: Pensoft\Survey\Models\Group
+defaultRedirect: pensoft/survey/groups
+create:
+    redirect: 'pensoft/survey/groups/update/:id'
+    redirectClose: pensoft/survey/groups
+update:
+    redirect: pensoft/survey/groups
+    redirectClose: pensoft/survey/groups

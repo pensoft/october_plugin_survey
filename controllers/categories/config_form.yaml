@@ -1,0 +1,10 @@
+name: Categories
+form: $/pensoft/survey/models/category/fields.yaml
+modelClass: Pensoft\Survey\Models\Category
+defaultRedirect: pensoft/survey/categories
+create:
+    redirect: 'pensoft/survey/categories/update/:id'
+    redirectClose: pensoft/survey/categories
+update:
+    redirect: pensoft/survey/categories
+    redirectClose: pensoft/survey/categories

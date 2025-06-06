@@ -1,0 +1,31 @@
+columns:
+    created_at:
+        label: created_at
+        type: datetime
+        searchable: true
+        sortable: true
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: email
+        type: text
+        searchable: true
+        sortable: true
+    affiliation:
+        label: affiliation
+        type: text
+        searchable: true
+        sortable: true
+    main_language:
+        label: main_language
+        type: text
+        searchable: true
+        sortable: true
+    second_language:
+        label: second_language
+        type: text
+        searchable: true
+        sortable: true

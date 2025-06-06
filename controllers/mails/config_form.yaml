@@ -1,0 +1,10 @@
+name: Mails
+form: $/pensoft/survey/models/data/fields.yaml
+modelClass: Pensoft\Survey\Models\Data
+defaultRedirect: pensoft/survey/mails
+create:
+    redirect: 'pensoft/survey/mails/update/:id'
+    redirectClose: pensoft/survey/mails
+update:
+    redirect: pensoft/survey/mails
+    redirectClose: pensoft/survey/mails

@@ -1,0 +1,10 @@
+name: Interests
+form: $/pensoft/survey/models/interest/fields.yaml
+modelClass: Pensoft\Survey\Models\Interest
+defaultRedirect: pensoft/survey/interests
+create:
+    redirect: 'pensoft/survey/interests/update/:id'
+    redirectClose: pensoft/survey/interests
+update:
+    redirect: pensoft/survey/interests
+    redirectClose: pensoft/survey/interests

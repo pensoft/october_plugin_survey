@@ -1,0 +1,10 @@
+name: Recipients
+form: $/pensoft/survey/models/recipient/fields.yaml
+modelClass: Pensoft\Survey\Models\Recipient
+defaultRedirect: pensoft/survey/recipients
+create:
+    redirect: 'pensoft/survey/recipients/update/:id'
+    redirectClose: pensoft/survey/recipients
+update:
+    redirect: pensoft/survey/recipients
+    redirectClose: pensoft/survey/recipients

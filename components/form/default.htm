@@ -1,0 +1,26 @@
+<form method="post"
+      data-request="{{__SELF__}}::onSubmit"
+      data-request-files
+      data-request-validate
+      data-request-flash
+      data-request-success="scrollToField(data)"
+      class="get_involved_form_class"
+      data-request-loading="#loading"
+>
+    <input type="hidden" name="_handler" value="onSubmit">
+    {{ form_token() }}
+    {{ form_sessionKey() }}
+    <div id="error_messages">
+        {% flash error %}
+        <p>{{ message }}</p>
+        {% endflash %}
+    </div>
+
+    {% partial 'components/survey_form' %}
+
+</form>
+
+{% framework extras %}
+{% scripts %}
+
+<div id="loading" class="loader" style="display: none;"></div>

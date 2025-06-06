@@ -1,0 +1,4 @@
+title: Groups
+modelClass: Pensoft\Survey\Models\Group
+toolbar:
+    buttons: reorder_toolbar

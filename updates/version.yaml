@@ -1,0 +1,25 @@
+1.0.1: 'First version of Survey'
+1.0.2:
+    - 'Created table pensoft_survey_data'
+    - builder_table_create_pensoft_survey_data.php
+1.0.3:
+    - 'Created table pensoft_survey_recipients'
+    - builder_table_create_pensoft_survey_recipients.php
+1.0.4:
+    - 'Created table pensoft_survey_data_interest'
+    - builder_table_create_pensoft_survey_data_interest.php
+1.0.5:
+    - 'Created table pensoft_survey_categories'
+    - builder_table_create_pensoft_survey_categories.php
+1.0.6:
+    - 'Created table pensoft_survey_interest'
+    - builder_table_create_pensoft_survey_interest.php
+1.0.7:
+    - 'Created table pensoft_survey_data_categories'
+    - builder_table_create_pensoft_survey_data_categories.php
+1.0.8:
+    - 'Created table pensoft_survey_groups'
+    - builder_table_create_pensoft_survey_groups.php
+1.0.9:
+    - 'Created table pensoft_survey_data_groups'
+    - builder_table_create_pensoft_survey_data_groups.php
