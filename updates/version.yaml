@@ -23,3 +23,5 @@
 1.0.9:
     - 'Created table pensoft_survey_data_groups'
     - builder_table_create_pensoft_survey_data_groups.php
+1.0.10:
+    - 'Stakeholder survey list'

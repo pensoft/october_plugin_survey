@@ -137,7 +137,7 @@ class Form extends ComponentBase
                 'is_involved' => (int)$is_involved ? 'YES' : 'NO',
                 'msg' => $lMessage,
                 'project_events' => $project_events ? 'I consent to receive invitations and information about ' . Theme::getActiveTheme()->getConfig()['name'] . ' events.' : '',
-                'external_events' => $external_events ? 'I consent to receive invitations and information about relevant events from external projects.' : '',
+                'external_events' => $external_events ? 'I consent to being featured on ' . Theme::getActiveTheme()->getConfig()['name'] . '\'s stakeholder community page (name, organisation and country will be visible)' : '',
             ];
 
             // send mail to user submitting the form

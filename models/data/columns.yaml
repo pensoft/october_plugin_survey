@@ -19,13 +19,3 @@ columns:
         type: text
         searchable: true
         sortable: true
-    main_language:
-        label: main_language
-        type: text
-        searchable: true
-        sortable: true
-    second_language:
-        label: second_language
-        type: text
-        searchable: true
-        sortable: true
